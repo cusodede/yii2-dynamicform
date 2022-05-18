@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hacan359 
-kidzen
-/
-yii2-dynamicform
-Public
-forked from Bajadev/yii2-dynamicform
-Code
-Issues
-5
-Pull requests
-6
-Actions
-Projects
-Wiki
-Security
-Insights
-yii2-dynamicform/src/DynamicFormWidget.php /
-@kidzen
-kidzen Merge pull request #16 from Bajadev/master
-…
-Latest commit 6216419 on 1 Nov 2018
- History
- 5 contributors
-@kidzen@wbraganca@boliver20@desenvolvedorindie@redwert
-287 lines (260 sloc)  9.38 KB
-   
 <?php
 /**
  * @link      https://github.com/bajadev/yii2-dynamicform
@@ -318,16 +285,3 @@ class DynamicFormWidget extends \yii\base\Widget
         return $crawler->filter('body')->eq(0)->html();
     }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
