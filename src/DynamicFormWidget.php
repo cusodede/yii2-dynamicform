@@ -5,7 +5,7 @@
  * @license   https://github.com/bajadev/yii2-dynamicform/blob/master/LICENSE
  */
 
-namespace kidzen\dynamicform;
+namespace wbraganca\dynamicform;
 
 use Symfony\Component\CssSelector\CssSelectorConverter;
 use Yii;
