@@ -192,6 +192,9 @@
         var count = _count($elem, widgetOptions);
 
         if (count > widgetOptions.min) {
+            if (false === window.confirm("Подтвердить удаление?")) {
+                return;
+            }
             $todelete = $elem.closest(widgetOptions.widgetItem);
 
             // trigger a custom event for hooking
